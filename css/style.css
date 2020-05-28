@@ -167,3 +167,15 @@ span {
 .card-grupo1, .card-grupo2 {
     padding: 5px;
 }
+
+/****** CONTATO *******/
+.img-contato {
+    padding: 2px;
+    margin-left: 4px;
+    filter: grayscale(100%);
+}
+
+.img-contato:hover {
+    filter: grayscale(0%);
+    transition: filter 0.4s ease;
+}
