@@ -179,3 +179,8 @@ span {
     filter: grayscale(0%);
     transition: filter 0.4s ease;
 }
+
+/****** FOOTER *******/
+.section-footer {
+    margin-top: 8px;
+}
