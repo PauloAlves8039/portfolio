@@ -124,3 +124,46 @@ span {
 .card-grupo1, .card-grupo2 {
     padding: 5px;
 }
+
+/****** PROJETOS *******/
+.section-projetos {
+    margin-top: 10px; 
+}
+
+.section-contato {
+    margin-top: 10px;
+}
+
+.repositorios-projetos{
+    padding: 2px;
+}
+
+.card-projetos {
+    box-shadow: 0 4px 4px 0 #696969;
+    transition: 0.3s;
+}
+
+.card-projetos:hover {
+    box-shadow: 0 5px 5px 0 #00CDCD;
+}
+
+.link-repositorio {
+    color: #1C1C1C;
+    font-weight: 700;
+}
+
+.link-repositorio:hover {
+    color: #66CD00;
+    text-decoration: none;
+    transition: filter 0.4s ease;
+}
+
+.texto-footer-projeto {
+    font-size: 11px;
+    font-weight: 700;
+    color: #8470FF;
+}
+
+.card-grupo1, .card-grupo2 {
+    padding: 5px;
+}
