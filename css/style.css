@@ -1,0 +1,13 @@
+/****** NAVBAR *******/
+#logo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-menu {
+    background-color: #00CDCD;
+}
+
+.nav-item {
+    font-weight: 700;
+}
