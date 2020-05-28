@@ -4,6 +4,9 @@
 Repositório com código fonte de uma página web pessoal, projeto tem como objetivo a representação de meu portfólio, 
 o mesmo está sujeito a alterações constantes conforme necessário.
 
+## :earth_americas: Link do projeto
+- [Paulo Alves](https://pauloalves8039.github.io/portfolio/).
+
 ## :wrench: Recursos Utilizados
 - [Visual Studio Code v1.45.1](https://code.visualstudio.com/).
 - [HTML5](https://www.w3schools.com/html/).
