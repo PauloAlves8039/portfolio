@@ -11,3 +11,48 @@
 .nav-item {
     font-weight: 700;
 }
+
+/****** HOME *******/
+h1 {
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+}
+.card-home {
+    margin-top: 58px;
+    max-width: 100%;
+    box-shadow: 0 4px 4px 0 #696969;
+    transition: 0.3s;
+}
+
+.card-home:hover {
+    box-shadow: 0 5px 5px 0 #00CDCD;
+}
+
+.card-texto-perfil {
+    font-size: 15px;
+}
+
+.card-img {
+    height: 100%;
+}
+
+.img-contatos-home {
+    filter: grayscale(100%);
+}
+
+.img-contatos-home:hover {
+    filter: grayscale(0%);
+    transition: filter 0.4s ease;
+}
+
+.ancora {
+    position: relative;
+    top: -55px;
+}
+
+.titulos {
+    color: #00CDCD;
+}
