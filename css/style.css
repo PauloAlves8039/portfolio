@@ -12,7 +12,7 @@
     font-weight: 700;
 }
 
-/****** HOME *******/
+/****** BODY *******/
 h1 {
     text-align: center;
 }
@@ -20,11 +20,32 @@ h1 {
 span {
     font-weight: 700;
 }
+
+.ancora {
+    position: relative;
+    top: -55px;
+}
+
+.titulos {
+    color: #00CDCD;
+}
+
+/****** HOME *******/
 .card-home {
-    margin-top: 58px;
+    margin-top: 8px;
     max-width: 100%;
     box-shadow: 0 4px 4px 0 #696969;
     transition: 0.3s;
+}
+
+.section-home {
+    margin-top: 50px;
+}
+
+.img-perfil {
+    width: 180px;
+    height: 180px;  
+    margin-bottom: 30px;  
 }
 
 .card-home:hover {
@@ -48,13 +69,26 @@ span {
     transition: filter 0.4s ease;
 }
 
-.ancora {
-    position: relative;
-    top: -55px;
+.card-contatos-home {
+    margin-top: -25px;
 }
 
-.titulos {
-    color: #00CDCD;
+/****** SOBRE *******/
+.card-sobre {
+    box-shadow: 0 4px 4px 0 #696969;
+    transition: 0.3s;
+}
+
+.card-sobre:hover {
+    box-shadow: 0 5px 5px 0 #00CDCD;
+}
+
+.texto-sobre {
+    text-align: justify;
+}
+
+.section-sobre {
+    margin-top: 12px;
 }
 
 /****** SKILLS *******/
@@ -70,7 +104,7 @@ span {
 }
 
 .section-skills {
-    margin-top: -15px;
+    margin-top: 12px;
 }
 
 .card-skills {
