@@ -1,3 +1,10 @@
+:root{
+    --border-color: #696969;
+    --page-color: #00CDCD;
+    --titulo-card-color: #1C1C1C;
+    --link-color: #66CD00; 
+}
+
 /****** NAVBAR *******/
 #logo {
     width: 30px;
@@ -5,7 +12,7 @@
 }
 
 .navbar-menu {
-    background-color: #00CDCD;
+    background-color: var(--page-color);
 }
 
 .nav-item {
@@ -27,7 +34,7 @@ span {
 }
 
 .titulos {
-    color: #00CDCD;
+    color: var(--page-color);
 }
 
 /****** HOME *******/
@@ -39,14 +46,14 @@ span {
     margin-top: 8px;
     max-width: 100%;
     text-align: justify;
-    box-shadow: 0 4px 4px 0 #696969;
+    box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
 }
 
 .card-home hr {
     height: 3px;
-    color: #00CDCD;
-    background-color: #00CDCD;
+    color: var(--page-color);
+    background-color: var(--page-color);
 }
 
 .imagem-perfil {
@@ -54,7 +61,7 @@ span {
     height: 250px;
     margin: 0 auto;
     border-radius: 50%;
-    border: 5px solid #00CDCD;
+    border: 5px solid var(--page-color);
     background: url(../assets/img/page/paulo.png) no-repeat;  
 }
 
@@ -65,7 +72,7 @@ span {
 }
 
 .card-home:hover {
-    box-shadow: 0 5px 5px 0 #00CDCD;
+    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 .img-contatos-home {
@@ -81,47 +88,47 @@ span {
     margin-top: -25px;
 }
 
-/****** SOBRE *******/
-.card-sobre {
-    box-shadow: 0 4px 4px 0 #696969;
-    transition: 0.3s;
-}
-
-.card-sobre:hover {
-    box-shadow: 0 5px 5px 0 #00CDCD;
-}
-
-.texto-sobre {
-    text-align: justify;
-}
-
-.section-sobre {
+/****** RESUMO *******/
+.section-resumo {
     margin-top: 12px;
 }
 
-/****** SKILLS *******/
-.img-skills {
+.card-resumo {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.card-resumo:hover {
+    box-shadow: 0 5px 5px 0 var(--page-color);
+}
+
+.texto-resumo {
+    text-align: justify;
+}
+
+/****** HABILIDADES *******/
+.card-habilidades {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.img-habilidades {
     padding: 2px;
     margin-left: 4px;
     filter: grayscale(100%);
 }
 
-.img-skills:hover {
+.img-habilidades:hover {
     filter: grayscale(0%);
     transition: filter 0.4s ease;
 }
 
-.section-skills {
+.section-habilidades{
     margin-top: 12px;
 }
 
-.card-skills {
-    box-shadow: 0 4px 4px 0 #696969;
-    transition: 0.3s;
-}
-
-.card-skills:hover {
-    box-shadow: 0 5px 5px 0 #00CDCD;
+.card-habilidades:hover {
+    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 /****** PROJETOS *******/
@@ -138,29 +145,23 @@ span {
 }
 
 .card-projetos {
-    box-shadow: 0 4px 4px 0 #696969;
+    box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
 }
 
 .card-projetos:hover {
-    box-shadow: 0 5px 5px 0 #00CDCD;
+    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 .link-repositorio {
-    color: #1C1C1C;
+    color: var(--titulo-card-color);
     font-weight: 700;
 }
 
 .link-repositorio:hover {
-    color: #66CD00;
+    color: var(--link-color);
     text-decoration: none;
     transition: filter 0.4s ease;
-}
-
-.texto-footer-projeto {
-    font-size: 11px;
-    font-weight: 700;
-    color: #8470FF;
 }
 
 .card-grupo1, .card-grupo2 {
@@ -181,29 +182,12 @@ span {
 }
 
 .card-projetos {
-    box-shadow: 0 4px 4px 0 #696969;
+    box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
 }
 
 .card-projetos:hover {
-    box-shadow: 0 5px 5px 0 #00CDCD;
-}
-
-.link-repositorio {
-    color: #1C1C1C;
-    font-weight: 700;
-}
-
-.link-repositorio:hover {
-    color: #66CD00;
-    text-decoration: none;
-    transition: filter 0.4s ease;
-}
-
-.texto-footer-projeto {
-    font-size: 11px;
-    font-weight: 700;
-    color: #8470FF;
+    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 .card-grupo1, .card-grupo2 {
