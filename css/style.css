@@ -31,33 +31,41 @@ span {
 }
 
 /****** HOME *******/
-.card-home {
-    margin-top: 8px;
-    max-width: 100%;
-    box-shadow: 0 4px 4px 0 #696969;
-    transition: 0.3s;
-}
-
 .section-home {
     margin-top: 50px;
 }
 
-.img-perfil {
-    width: 180px;
-    height: 180px;  
-    margin-bottom: 30px;  
+.card-home {
+    margin-top: 8px;
+    max-width: 100%;
+    text-align: justify;
+    box-shadow: 0 4px 4px 0 #696969;
+    transition: 0.3s;
+}
+
+.card-home hr {
+    height: 3px;
+    color: #00CDCD;
+    background-color: #00CDCD;
+}
+
+.imagem-perfil {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #00CDCD;
+    background: url(../assets/img/page/paulo.png) no-repeat;  
+}
+
+.titulo-home {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .card-home:hover {
     box-shadow: 0 5px 5px 0 #00CDCD;
-}
-
-.card-texto-perfil {
-    font-size: 15px;
-}
-
-.card-img {
-    height: 100%;
 }
 
 .img-contatos-home {
