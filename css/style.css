@@ -195,6 +195,15 @@ span {
 }
 
 /****** CONTATO *******/
+.card-contatos {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.card-contatos:hover {
+    box-shadow: 0 5px 5px 0 var(--page-color);
+}
+
 .img-contato {
     padding: 2px;
     margin-left: 4px;
