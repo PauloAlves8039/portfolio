@@ -1,8 +1,11 @@
+/****** CORES *******/
 :root{
     --border-color: #696969;
     --page-color: #00CDCD;
     --titulo-card-color: #1C1C1C;
     --link-color: #66CD00; 
+    --link-color-contatos: #9C9C9C;
+    --icone-color: #FFFFFF; 
 }
 
 /****** NAVBAR *******/
@@ -56,32 +59,34 @@ span {
     background-color: var(--page-color);
 }
 
+.img-home-background {
+    width: 100%;
+    height: 400px;
+    filter: brightness(90%) blur(3px);
+}
+
+.icone-background{
+    margin-top: -14px;
+    padding: 6px;
+    color: var(--icone-color);
+    transition: 0.3s;
+}
+
+.icone-background:hover {
+    color: var(--page-color);
+}
+
 .imagem-perfil {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
     border-radius: 50%;
     border: 5px solid var(--page-color);
     background: url(../assets/img/page/paulo.png) no-repeat;  
 }
 
-.titulo-home {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-}
-
 .card-home:hover {
     box-shadow: 0 5px 5px 0 var(--page-color);
-}
-
-.img-contatos-home {
-    filter: grayscale(100%);
-}
-
-.img-contatos-home:hover {
-    filter: grayscale(0%);
-    transition: filter 0.4s ease;
 }
 
 .card-contatos-home {
@@ -107,6 +112,10 @@ span {
 }
 
 /****** HABILIDADES *******/
+.section-habilidades{
+    margin-top: 12px;
+}
+
 .card-habilidades {
     box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
@@ -121,10 +130,6 @@ span {
 .img-habilidades:hover {
     filter: grayscale(0%);
     transition: filter 0.4s ease;
-}
-
-.section-habilidades{
-    margin-top: 12px;
 }
 
 .card-habilidades:hover {
@@ -168,15 +173,6 @@ span {
     padding: 5px;
 }
 
-/****** PROJETOS *******/
-.section-projetos {
-    margin-top: 10px; 
-}
-
-.section-contato {
-    margin-top: 10px;
-}
-
 .repositorios-projetos{
     padding: 2px;
 }
@@ -195,6 +191,10 @@ span {
 }
 
 /****** CONTATO *******/
+.section-contato {
+    margin-top: 10px;
+}
+
 .card-contatos {
     box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
@@ -204,8 +204,11 @@ span {
     box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
+.titulo-card-contatos {
+    font-weight: 700;
+}
+
 .img-contato {
-    padding: 2px;
     margin-left: 4px;
     filter: grayscale(100%);
 }
@@ -213,6 +216,27 @@ span {
 .img-contato:hover {
     filter: grayscale(0%);
     transition: filter 0.4s ease;
+}
+
+.text-contato {
+    color: var(--titulo-card-color);
+    font-weight: 500;
+}
+
+.text-contato:hover {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: filter 0.4s ease;
+}
+
+.icone-background-contatos {
+    margin: 2px;
+    padding: 2px;
+    color: var(--link-color-contatos);    
+}
+
+.icone-background-contatos:hover {
+    color: var(--link-color);
 }
 
 /****** FOOTER *******/
