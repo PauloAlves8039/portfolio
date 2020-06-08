@@ -204,13 +204,16 @@ span {
 }
 
 .text-contato {
-    color: var(--titulo-card-color);
-    font-weight: 500;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--titulo-card-color);   
 }
 
 .text-contato:hover {
-    color: var(--link-color);
+    font-weight: 700;
     text-decoration: none;
+    color: var(--link-color);
     transition: filter 0.4s ease;
 }
 
@@ -219,8 +222,9 @@ span {
 }
 
 .icone-background-contatos {
-    margin: 2px;
-    padding: 2px;
+    margin-top: -16px;
+    margin-left: -6px;
+    padding: 12px;
     color: var(--link-color-contatos);    
 }
 
@@ -232,17 +236,17 @@ span {
     border: solid #B5B5B5 1px;
     border-width: thin;
     border-radius:8px;
-    width: 220px;
+    width: 300px;
     height: 100px;    
 }
 
 .box-conteudo {
-    padding: 8px;
+    padding: 12px;
     margin-top: 6px;
-    margin-left: 12px;
+    margin-left: 14px;
 }
 
-#form-contato {
+.form-contato {
     padding: 10px;
     margin-left: -20px;    
 }
