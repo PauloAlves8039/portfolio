@@ -197,11 +197,6 @@ span {
 
 .card-contatos {
     box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-contatos:hover {
-    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 .titulo-card-contatos {
@@ -229,6 +224,10 @@ span {
     transition: filter 0.4s ease;
 }
 
+.links-contato {
+    margin-top: -8px;
+}
+
 .icone-background-contatos {
     margin: 2px;
     padding: 2px;
@@ -236,6 +235,30 @@ span {
 }
 
 .icone-background-contatos:hover {
+    color: var(--link-color);
+}
+
+.fildset-box-contatos {
+    border: solid #B5B5B5 1px;
+    border-width: thin;
+    border-radius:8px;
+    width: 220px;
+    height: 100px;    
+}
+
+.box-conteudo {
+    padding: 8px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+#form-contato {
+    padding: 10px;
+    margin-left: -20px;    
+}
+
+#my-form-status {
+    font-weight: 700;
     color: var(--link-color);
 }
 
