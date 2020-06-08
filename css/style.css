@@ -85,10 +85,6 @@ span {
     background: url(../assets/img/page/paulo.png) no-repeat;  
 }
 
-.card-home:hover {
-    box-shadow: 0 5px 5px 0 var(--page-color);
-}
-
 .card-contatos-home {
     margin-top: -25px;
 }
