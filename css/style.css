@@ -100,11 +100,6 @@ span {
 
 .card-resumo {
     box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-resumo:hover {
-    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 .texto-resumo {
