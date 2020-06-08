@@ -118,7 +118,6 @@ span {
 
 .card-habilidades {
     box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
 }
 
 .img-habilidades {
@@ -130,10 +129,6 @@ span {
 .img-habilidades:hover {
     filter: grayscale(0%);
     transition: filter 0.4s ease;
-}
-
-.card-habilidades:hover {
-    box-shadow: 0 5px 5px 0 var(--page-color);
 }
 
 /****** PROJETOS *******/
