@@ -107,6 +107,10 @@ span {
     margin-top: 12px;
 }
 
+.card-grupo-habilidades {
+    padding: 5px;
+}
+
 .card-habilidades {
     box-shadow: 0 4px 4px 0 var(--border-color);
 }
