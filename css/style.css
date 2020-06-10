@@ -329,7 +329,7 @@ span {
 
 #my-form-status {
     font-weight: 700;
-    color: var(--link-color);
+    color: var(--page-color);
 }
 
 /****** FOOTER *******/
