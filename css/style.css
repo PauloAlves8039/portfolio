@@ -1,28 +1,26 @@
 /****** CORES *******/
 :root{
+    --body-color: #FFFFFF;
     --border-color: #696969;
+    --border-color-hover: #363636;
+    --filedset-border-color: #B5B5B5;
     --page-color: #00CDCD;
-    --titulo-card-color: #1C1C1C;
-    --link-color: #66CD00; 
+    --titulo-color: #1C1C1C;
+    --link-color: #1C1C1C; 
     --link-color-contatos: #9C9C9C;
     --icone-color: #FFFFFF; 
 }
 
-/****** NAVBAR *******/
-#logo {
-    width: 30px;
-    height: 30px;
-}
-
-.navbar-menu {
-    background-color: var(--page-color);
-}
-
-.nav-item {
-    font-weight: 700;
+/****** FONTE *******/
+:root {
+    --font-titulo: --font-titulo: Arial, Helvetica, sans-serif; 
 }
 
 /****** BODY *******/
+.body-page {
+    background-color: var(--body-color);
+}
+
 h1 {
     text-align: center;
 }
@@ -40,6 +38,35 @@ span {
     color: var(--page-color);
 }
 
+.titulos-cards {
+    font-weight: 700;
+    color: var(--page-color);
+    font-family: var(--font-titulo);
+}
+
+.body-header {
+    margin-top: 10px;
+    color: var(--page-color);
+}
+
+.card-grupo1, .card-grupo2 {
+    padding: 5px;
+}
+
+/****** NAVBAR *******/
+#logo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-menu {
+    background-color: var(--page-color);
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
 /****** HOME *******/
 .section-home {
     margin-top: 50px;
@@ -51,6 +78,10 @@ span {
     text-align: justify;
     box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
+}
+
+.card-home:hover {
+    box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
 .card-home hr {
@@ -100,6 +131,36 @@ span {
 
 .texto-resumo {
     text-align: justify;
+    margin: -2px;
+}
+
+.btn-resumo {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--titulo-color);
+    border-radius: 16px;
+    border: 0.1rem solid var(--border-color);
+    background: var(--icone-color);
+    margin-left: -2px;
+}
+
+.btn-resumo:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    color: var(--body-color);
+    border: 0.1rem solid var(--page-color);
+    background: var(--page-color);
+}
+
+#btn-curriculo {
+    padding: 4px;
+}
+
+#btn-certificacao {
+    padding: 4px;
 }
 
 /****** HABILIDADES *******/
@@ -113,17 +174,17 @@ span {
 
 .card-habilidades {
     box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.card-habilidades:hover {
+    box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
 .img-habilidades {
     padding: 2px;
     margin-left: 4px;
-    filter: grayscale(100%);
-}
-
-.img-habilidades:hover {
-    filter: grayscale(0%);
-    transition: filter 0.4s ease;
+    margin-top: -10px;
 }
 
 /****** PROJETOS *******/
@@ -131,53 +192,47 @@ span {
     margin-top: 10px; 
 }
 
+.card-projetos {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.card-projetos:hover {
+    box-shadow: 0 5px 5px 0 var(--border-color-hover);
+}
+
 .imagem-card {
     height: 140px;
 }
 
-.repositorios-projetos{
-    padding: 2px;
-}
-
-.card-projetos {
-    box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-projetos:hover {
-    box-shadow: 0 5px 5px 0 var(--page-color);
-}
-
-.link-repositorio {
-    color: var(--titulo-card-color);
+.titulo-projeto {
     font-weight: 700;
-}
-
-.link-repositorio:hover {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: filter 0.4s ease;
-}
-
-.card-grupo1, .card-grupo2 {
-    padding: 5px;
+    color: var(--page-color);
+    font-family: var(--font-titulo);
 }
 
 .repositorios-projetos{
     padding: 2px;
 }
 
-.card-projetos {
-    box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
+.btn-repositorio {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    color: var(--titulo-color);
+    border-radius: 16px;
+    border: 0.1rem solid var(--border-color);
+    background: var(--icone-color)
 }
 
-.card-projetos:hover {
-    box-shadow: 0 5px 5px 0 var(--page-color);
-}
-
-.card-grupo1, .card-grupo2 {
-    padding: 5px;
+.btn-repositorio:hover {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 16px;
+    color: var(--body-color);
+    border: 0.1rem solid var(--page-color);
+    background: var(--page-color);
 }
 
 /****** CONTATO *******/
@@ -187,10 +242,11 @@ span {
 
 .card-contatos {
     box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
 }
 
-.titulo-card-contatos {
-    font-weight: 700;
+.card-contatos:hover {
+    box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
 .img-contato {
@@ -206,14 +262,13 @@ span {
 .text-contato {
     padding: 4px;
     font-size: 15px;
-    font-weight: 400;
-    color: var(--titulo-card-color);   
+    color: var(--titulo-color);   
 }
 
 .text-contato:hover {
-    font-weight: 700;
+    color: var(--page-color);
     text-decoration: none;
-    color: var(--link-color);
+    font-weight: 500;
     transition: filter 0.4s ease;
 }
 
@@ -222,18 +277,17 @@ span {
 }
 
 .icone-background-contatos {
-    margin-top: -16px;
-    margin-left: -6px;
-    padding: 12px;
+    margin-top: -6px;
+    padding: 4px;
     color: var(--link-color-contatos);    
 }
 
 .icone-background-contatos:hover {
-    color: var(--link-color);
+    color: var(--page-color);
 }
 
 .fildset-box-contatos {
-    border: solid #B5B5B5 1px;
+    border: solid 1px var(--filedset-border-color);
     border-width: thin;
     border-radius:8px;
     width: 300px;
@@ -241,7 +295,7 @@ span {
 }
 
 .box-conteudo {
-    padding: 12px;
+    padding: 10px;
     margin-top: 6px;
     margin-left: 14px;
 }
@@ -249,6 +303,28 @@ span {
 .form-contato {
     padding: 10px;
     margin-left: -20px;    
+}
+
+.btn-enviar {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--titulo-color);
+    border-radius: 16px;
+    width: 100px;
+    height: 30px;
+    background: var(--icone-color);
+    border: 1px solid var(--border-color);   
+}
+
+.btn-enviar:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 16px;
+    color: var(--body-color);
+    background: var(--page-color);
+    border: 1px solid var(--page-color);    
 }
 
 #my-form-status {
