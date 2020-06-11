@@ -43,7 +43,7 @@ span {
     color: var(--page-color);
 }
 
-.card-grupo1, .card-grupo2 {
+.card-grupo1, .card-grupo2, .card-grupo3 {
     padding: 5px;
 }
 
@@ -175,12 +175,6 @@ span {
     height: 140px;
 }
 
-.titulo-projeto {
-    font-weight: 700;
-    color: var(--page-color);
-    font-family: var(--font-titulo);
-}
-
 .repositorios-projetos{
     padding: 2px;
 }
@@ -198,6 +192,43 @@ span {
 .btn-repositorio:hover {
     text-decoration: none;
     font-size: 14px;
+    padding: 4px;
+    border-radius: 16px;
+    color: var(--body-color);
+    border: 0.1rem solid var(--page-color);
+    background: var(--page-color);
+}
+
+/****** CERTIFICADOS *******/
+.section-certificados {
+    margin-top: 10px;
+}
+
+.card-certificados {
+    box-shadow: 0 4px 4px 0 var(--border-color);
+    transition: 0.3s;
+}
+
+.card-certificados:hover {
+    box-shadow: 0 5px 5px 0 var(--border-color-hover);
+}
+
+.btn-certificado {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+    color: var(--titulo-color);
+    border-radius: 16px;
+    border: 0.1rem solid var(--border-color);
+    background: var(--icone-color);
+    margin-left: -2px;
+}
+
+.btn-certificado:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
     padding: 4px;
     border-radius: 16px;
     color: var(--body-color);
