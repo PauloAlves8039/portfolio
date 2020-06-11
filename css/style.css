@@ -34,14 +34,8 @@ span {
     top: -55px;
 }
 
-.titulos {
+.titulo {
     color: var(--page-color);
-}
-
-.titulos-cards {
-    font-weight: 700;
-    color: var(--page-color);
-    font-family: var(--font-titulo);
 }
 
 .body-header {
@@ -137,35 +131,6 @@ span {
 .texto-resumo {
     text-align: justify;
     margin: -2px;
-}
-
-.btn-resumo {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--titulo-color);
-    border-radius: 16px;
-    border: 0.1rem solid var(--border-color);
-    background: var(--icone-color);
-    margin-left: -2px;
-}
-
-.btn-resumo:hover {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 16px;
-    color: var(--body-color);
-    border: 0.1rem solid var(--page-color);
-    background: var(--page-color);
-}
-
-#btn-curriculo {
-    padding: 4px;
-}
-
-#btn-certificacao {
-    padding: 4px;
 }
 
 /****** HABILIDADES *******/
@@ -267,13 +232,16 @@ span {
 .text-contato {
     padding: 4px;
     font-size: 15px;
+    font-weight: 500;
     color: var(--titulo-color);   
 }
 
 .text-contato:hover {
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 500;
     color: var(--page-color);
     text-decoration: none;
-    font-weight: 500;
     transition: filter 0.4s ease;
 }
 
