@@ -71,11 +71,6 @@ span {
     max-width: 100%;
     text-align: justify;
     box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-home:hover {
-    box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
 .card-home hr {
@@ -121,11 +116,6 @@ span {
 
 .card-resumo {
     box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-resumo:hover {
-    box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
 .texto-resumo {
@@ -138,23 +128,12 @@ span {
     margin-top: 12px;
 }
 
-.card-grupo-habilidades {
-    padding: 5px;
+.texto-habilidades {
+    font-weight: 500;
 }
 
-.card-habilidades {
-    box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-habilidades:hover {
-    box-shadow: 0 5px 5px 0 var(--border-color-hover);
-}
-
-.img-habilidades {
-    padding: 2px;
-    margin-left: 4px;
-    margin-top: -10px;
+.progress {
+    max-height: 10px;    
 }
 
 /****** PROJETOS *******/
@@ -243,11 +222,6 @@ span {
 
 .card-contatos {
     box-shadow: 0 4px 4px 0 var(--border-color);
-    transition: 0.3s;
-}
-
-.card-contatos:hover {
-    box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
 .img-contato {
@@ -305,8 +279,7 @@ span {
 }
 
 .form-contato {
-    padding: 10px;
-    margin-left: -20px;    
+    padding: 10px;  
 }
 
 .btn-enviar {
