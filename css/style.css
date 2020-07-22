@@ -111,14 +111,14 @@ span {
 
 .text-home {
     padding: 4px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--icone-color);   
 }
 
 .text-home:hover {
     padding: 4px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--page-color);
     text-decoration: none;
