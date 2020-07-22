@@ -109,6 +109,22 @@ span {
     margin-top: -25px;
 }
 
+.text-home {
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;   
+}
+
+.text-home:hover {
+    padding: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--page-color);
+    text-decoration: none;
+    transition: filter 0.4s ease;
+}
+
 /****** RESUMO *******/
 .section-resumo {
     margin-top: 12px;
@@ -278,8 +294,8 @@ span {
     margin-left: 14px;
 }
 
-.form-contato {
-    padding: 10px;  
+#my-form {
+    padding: 10px;
 }
 
 .btn-enviar {
@@ -302,6 +318,11 @@ span {
     color: var(--body-color);
     background: var(--page-color);
     border: 1px solid var(--page-color);    
+}
+
+#fd-contato {
+    border: 1px solid var(--filedset-border-color);
+    border-radius: 0.25rem;
 }
 
 #my-form-status {
