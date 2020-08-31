@@ -130,13 +130,8 @@ span {
     margin-top: 12px;
 }
 
-.card-resumo {
-    box-shadow: 0 4px 4px 0 var(--border-color);
-}
-
 .texto-resumo {
     text-align: justify;
-    margin: -2px;
 }
 
 /****** HABILIDADES *******/
@@ -152,17 +147,17 @@ span {
     max-height: 10px;    
 }
 
-/****** PROJETOS *******/
-.section-projetos {
+/****** PORTFOLIO *******/
+.section-portfolio {
     margin-top: 10px; 
 }
 
-.card-projetos {
+.card-portfolio {
     box-shadow: 0 4px 4px 0 var(--border-color);
     transition: 0.3s;
 }
 
-.card-projetos:hover {
+.card-portfolio:hover {
     box-shadow: 0 5px 5px 0 var(--border-color-hover);
 }
 
@@ -170,7 +165,7 @@ span {
     height: 140px;
 }
 
-.repositorios-projetos{
+.repositorios-portfolio{
     padding: 2px;
 }
 
